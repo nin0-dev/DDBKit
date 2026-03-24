@@ -37,9 +37,9 @@ let package = Package(
     //    .package(url: "https://github.com/SimplyDanny/SwiftLintPlugins", exact: "0.57.0"),
     .package(
       url: "https://github.com/DiscordBM/DiscordBM",
-      revision: "ae4ae929c4b9996f4e36b30ce2c9bedb96998fb9",
+      revision: "6c88b72c5692bda30e92bf4f0c01b3cc34c932d5",
       traits: [
-        .trait(name: "Non64BitSystemsCompatibility")  // watchOS support (on arm64_32)
+        .trait(name: "ExperimentalNon64BitSystemsCompatibility")  // watchOS support (on arm64_32)
       ]
     )
   ],
